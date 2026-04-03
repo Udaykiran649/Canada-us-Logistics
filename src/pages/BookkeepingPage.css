@@ -1,0 +1,160 @@
+/* Page */
+.bookkeeping-page {
+  min-height: 100vh;
+}
+
+/* Hero */
+.bookkeeping-hero {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #0c0f16, #1c3160);
+  color: #ffffff;
+}
+
+.hero-tag {
+  color: #06b6d4;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.hero-desc {
+  max-width: 600px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* Content */
+.bookkeeping-content {
+  padding: 80px 20px;
+  background: #ffffff;
+}
+
+.bookkeeping-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.section-desc {
+  color: #64748b;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* List */
+.feature-list {
+  list-style: none;
+  padding: 0;
+}
+
+.feature-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.check-icon {
+  width: 18px;
+  height: 18px;
+  color: #14b8a6;
+}
+
+/* Image */
+.image-box img {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Features */
+.bookkeeping-features {
+  padding: 80px 20px;
+  background: #f1f5f9;
+}
+
+.features-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.features-header h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* Card */
+.feature-card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-icon-box {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #06b6d4, #3b82f6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.feature-icon {
+  width: 22px;
+  height: 22px;
+  color: #ffffff;
+}
+
+.feature-card h3 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.feature-card p {
+  font-size: 14px;
+  color: #64748b;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .bookkeeping-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-title {
+    font-size: 30px;
+  }
+}

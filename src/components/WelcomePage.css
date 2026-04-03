@@ -1,0 +1,172 @@
+/* Section */
+.aboutWel {
+  background: #f5f5f5;
+  padding: 80px 0;
+}
+
+/* Container */
+.containerWel {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Layout */
+.about-wrapperWel {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* ================= LEFT IMAGES ================= */
+.about-imagesWel {
+  position: relative;
+  width: 50%;
+}
+
+/* Main Image */
+.main-imgWel {
+  position: relative;
+  transform: rotate(-2deg);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.main-imgWel img {
+  width: 100%;
+  display: block;
+}
+
+/* Experience Card */
+.experience-cardWel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.experience-cardWel h2 {
+  font-size: 40px;
+  color: #1e3a5f;
+  margin: 0;
+}
+
+.experience-cardWel p {
+  color: #06b6d4;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+/* Small Image */
+.small-imgWel {
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  width: 65%;
+  border-radius: 12px;
+  overflow: hidden;
+  transform: rotate(3deg);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.small-imgWel img {
+  width: 100%;
+  display: block;
+}
+
+/* ================= RIGHT CONTENT ================= */
+.about-contentWel {
+  width: 50%;
+}
+
+.subtitleWel {
+  color: #1e3a5f;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.about-contentWel h1 {
+  font-size: 42px;
+  color: #06b6d4;
+  margin: 10px 0 20px;
+}
+
+.about-contentWel h1 span {
+  color: #06b6d4;
+}
+
+.descWel {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* List */
+.listWel div {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Buttons */
+.buttonsWel {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.btnWel {
+  padding: 12px 22px;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btnWel.orangeWel {
+ align-items: center;
+ background: linear-gradient(135deg, #06b6d4, #3b82f6);
+  color: #fff;
+}
+
+.btnWel.greenWel {
+  align-items: center;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+
+.btnWel.orangeWel:hover {
+  background: linear-gradient(135deg, #06b6d4, #3b82f6);
+  color: #fff;
+}
+
+
+
+.btnWel.greenWel:hover {
+  background: #ffffff;
+  color: #1e3a8a;
+}
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 992px) {
+  .about-wrapperWel {
+    flex-direction: column;
+  }
+
+  .about-imagesWel,
+  .about-contentWel {
+    width: 100%;
+  }
+
+  .small-imgWel {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    margin-top: 20px;
+  }
+}

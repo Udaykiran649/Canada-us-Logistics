@@ -1,0 +1,107 @@
+.contact-page {
+  font-family: Arial, sans-serif;
+}
+
+/* HERO */
+.heroCont {
+  /* background: #0f172a; */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url(../assets/logistic-worker-teamwork-and-partner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* SECTION */
+.section {
+  padding: 60px 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+/* INFO */
+.contact-info h2 {
+  margin-bottom: 10px;
+}
+
+.info-box {
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  background: #f5f5f5;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.info-box h4 {
+  margin: 0;
+}
+
+.info-box a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+/* FORM */
+.contact-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.contact-form textarea {
+  margin-top: 15px;
+}
+
+.contact-form button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* MAP */
+.map {
+  background: #f1f5f9;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .grid-3 {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
