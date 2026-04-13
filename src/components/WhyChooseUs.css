@@ -134,3 +134,64 @@
     margin-top: 15px;
   }
 }
+@media (max-width: 1200px) {
+  .why-grid {
+    gap: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+@media (max-width: 768px) {
+
+  .why {
+    padding: 60px 15px;
+  }
+
+  .why-title {
+    font-size: 26px;
+  }
+
+  .why-desc {
+    font-size: 14px;
+  }
+
+  .why-item {
+    gap: 10px;
+  }
+
+  .why-icon-box {
+    width: 40px;
+    height: 40px;
+  }
+
+  .why-icon {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* FIX FLOATING BADGE */
+  .why-badge {
+    position: static;
+    margin-top: 15px;
+    justify-content: center;
+  }
+}
+@media (max-width: 480px) {
+
+  .why-title {
+    font-size: 22px;
+  }
+
+  .why-item-title {
+    font-size: 14px;
+  }
+
+  .why-item-desc {
+    font-size: 13px;
+  }
+}

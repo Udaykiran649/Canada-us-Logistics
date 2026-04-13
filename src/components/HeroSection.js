@@ -47,7 +47,7 @@ const HeroSection = () => {
               <ArrowRight className="icon-right" />
             </Link>
 
-            <Link to="/services" className="btn-outline">
+            <Link to="/services" className="btn-outlineLand">
               Explore Our Services
             </Link>
           </div>

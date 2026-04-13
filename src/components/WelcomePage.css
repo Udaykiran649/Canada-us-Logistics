@@ -136,7 +136,8 @@
 .btnWel.greenWel {
   align-items: center;
   border: 2px solid #ffffff;
-  color: #ffffff;
+    background: #ffffff;
+  color: #1e3a8a;
 }
 
 
@@ -168,5 +169,73 @@
     right: 0;
     bottom: 0;
     margin-top: 20px;
+  }
+}
+@media (max-width: 992px) {
+
+  .about-wrapperWel {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .about-imagesWel,
+  .about-contentWel {
+    width: 100%;
+  }
+
+  .small-imgWel {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    margin-top: 20px;
+    width: 100%;
+    transform: none;
+  }
+
+  .main-imgWel {
+    transform: none;
+  }
+}
+@media (max-width: 768px) {
+
+  .aboutWel {
+    padding: 60px 0;
+  }
+
+  .about-contentWel h1 {
+    font-size: 28px;
+  }
+
+  .descWel {
+    font-size: 14px;
+  }
+
+  .experience-cardWel {
+    padding: 12px 16px;
+  }
+
+  .experience-cardWel h2 {
+    font-size: 24px;
+  }
+
+  .buttonsWel {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .btnWel {
+    width: 100%;
+    max-width: 250px;
+  }
+}
+@media (max-width: 480px) {
+
+  .about-contentWel h1 {
+    font-size: 24px;
+  }
+
+  .experience-cardWel {
+    top: 10px;
+    left: 10px;
   }
 }

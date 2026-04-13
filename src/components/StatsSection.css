@@ -75,3 +75,48 @@
     grid-template-columns: 1fr;
   }
 }
+@media (max-width: 1200px) {
+  .stats-gridLand {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .stats-gridLand {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .stats-gridLand {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+  .stat-valueLand {
+    font-size: 26px;
+  }
+
+  .stat-labelLand {
+    font-size: 13px;
+  }
+
+  .stat-subLand {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  .statsLand {
+    padding: 50px 15px;
+  }
+
+  .stats-gridLand {
+    gap: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .stat-valueLand {
+    font-size: 22px;
+  }
+}

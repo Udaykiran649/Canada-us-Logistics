@@ -89,3 +89,52 @@
     font-size: 28px;
   }
 }
+/* Keep desktop same (3 columns) */
+
+@media (max-width: 1200px) {
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 768px) {
+
+  .testimonials-title {
+    font-size: 26px;
+  }
+
+  .testimonial-text {
+    font-size: 13px;
+  }
+
+  .user-name {
+    font-size: 14px;
+  }
+
+  .user-role {
+    font-size: 11px;
+  }
+}
+@media (max-width: 768px) {
+  .testimonials {
+    padding: 60px 15px;
+  }
+
+  .testimonials-header {
+    margin-bottom: 30px;
+  }
+
+  .testimonials-grid {
+    gap: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .testimonials-title {
+    font-size: 22px;
+  }
+}
